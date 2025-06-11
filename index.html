@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amadeus Café</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <img src="assets/img/logo.jpg" alt="Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#mision">Misión</a></li>
+        <li><a href="#vision">Visión</a></li>
+        <li><a href="#productos">Carta</a></li>
+        <li><a href="#domicilio">Domicilios</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero-texto">
+        <h1>Bienvenidos a Amadeus Café</h1>
+        <p>Donde el café inspira amor y familia</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="seccion" id="historia">
+    <h2>Nuestra Historia</h2>
+    <p>Amadeus Café nació de una tarde común y corriente, cuando dos almas soñadoras Cristian Acosta e Isabella compartían una conversación sobre la vida, los sueños y el futuro. Entre risas, amor y una taza de café, nació una idea: crear un lugar donde el café fuera el hilo conductor de los momentos más hermosos.
+
+Desde ese instante, Amadeus Café se convirtió en mucho más que un emprendimiento. Es una extensión de nuestro hogar, un rincón donde el amor se sirve en taza caliente, donde cada detalle está pensado para que nuestros clientes vivan una experiencia única.
+
+Aquí creemos en el poder de una buena conversación, de un postre que acaricia el alma y en que nuestros amigos peludos también merecen un espacio para compartir. Por eso, Amadeus Café es pet-friendly: un refugio para quienes aman el café, la vida y la compañía incondicional.</p>
+  </section>
+
+  <section class="seccion" id="mision">
+    <h2>Misión</h2>
+    <p>Nuestra misión es crear un espacio acogedor, donde el café y los postres no solo alimenten el cuerpo, sino también el corazón.
+
+Nos comprometemos a brindar productos de alta calidad, atención cálida y un entorno amigable con las mascotas.
+
+En Amadeus Café trabajamos para que cada cliente se sienta en casa, en una atmósfera donde la tradición se mezcla con el amor, y donde cada taza cuenta una historia.</p>
+  </section>
+
+  <section class="seccion" id="vision">
+    <h2>Visión</h2>
+    <p>Aspiramos a ser reconocidos como el café más querido de la ciudad, donde las personas acuden no solo por una bebida deliciosa, sino por un ambiente que los conecta con la calidez, la alegría y la autenticidad.
+
+Queremos crecer junto a nuestra comunidad, multiplicar nuestras sonrisas y llegar a más rincones de la ciudad con nuestro sello único: café, amor y dulzura para todos... ¡incluyendo a las mascotas!</p>
+  </section>
+
+  <section class="seccion" id="productos">
+    <h2>Nuestra Carta</h2>
+    <div class="carrusel">
+      <div class="carrusel-contenido">
+        <div class="card"><img src="assets/img/p1.jpg"><h3>Espresso</h3><p>$5.000</p></div>
+        <div class="card"><img src="assets/img/canela.jpg"><h3>Capuchino</h3><p>$7.500</p></div>
+        <div class="card"><img src="assets/img/oreo.jpg"><h3>Frappé de Oreo</h3><p>$9.000</p></div>
+        <div class="card"><img src="assets/img/cafe.jpg"><h3>Malteada de Café</h3><p>$8.500</p></div>
+        <div class="card"><img src="assets/img/p3.jpg"><h3>Torta de Chocolate</h3><p>$10.000</p></div>
+        <div class="card"><img src="assets/img/p4.jpg"><h3>Limonada de Vino</h3><p>$9.000</p></div>
+        <div class="card"><img src="assets/img/vainilla.jpg"><h3>Latte Vainilla</h3><p>$8.000</p></div>
+        <div class="card"><img src="assets/img/affogato.jpg"><h3>Affogato</h3><p>$9.500</p></div>
+        <div class="card"><img src="assets/img/zanahoria.jpg"><h3>Pastel de Zanahoria</h3><p>$9.000</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="domicilio">
+    <h2>Pedidos a Domicilio</h2>
+    <form onsubmit="enviarPedido(); return false;">
+      <input type="text" id="nombre" placeholder="Nombre completo" required>
+      <input type="text" id="cedula" placeholder="Cédula" required>
+      <input type="text" id="direccion" placeholder="Dirección de envío" required>
+      <textarea id="mensaje" placeholder="Mensaje para el domicilio" required></textarea>
+      <button type="submit">Enviar domicilio</button>
+    </form>
+  </section>
+
+  <section class="seccion">
+    <h2>Ubicación</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63456.91789486995!2d-75.67278137832032!3d6.256173099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429e9d4d10461%3A0xd7ef1007fda5c483!2sAmadeus%20cafe!5e0!3m2!1ses-419!2sco!4v1749677728823!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+  </section>
+
+  <section class="seccion">
+    <h2>Redes Sociales</h2>
+    <div class="redes">
+      <a href="https://instagram.com/Amadeuscafe_" target="_blank"><img src="assets/img/instagram.png" class="icono-red"></a>
+      <a href="https://facebook.com/Amadeuscafe_" target="_blank"><img src="assets/img/facebook.png" class="icono-red"></a>
+      <a href="https://tiktok.com/@Amadeuscafe_" target="_blank"><img src="assets/img/tiktok.png" class="icono-red"></a>
+    </div>
+  </section>
+
+  <a href="https://wa.me/573205740914" class="btn-wpp" target="_blank">💬</a>
+  <script src="assets/script.js"></script>
+
+  <footer>
+    <p>&copy; 2025 Amadeus Café. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
